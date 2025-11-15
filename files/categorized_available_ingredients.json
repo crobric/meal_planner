@@ -1,11 +1,20 @@
 {
-    "viande_poisson": [
-        "bœuf haché"
-    ],
-    "laitiers_frais": [
-        "roquefort",
-        "œufs"
-    ],
-    "legumes_feculents": [],
-    "epicerie": []
+  "viande_poisson": [
+    "bœuf haché",
+    "poulet"
+  ],
+  "laitiers_frais": [
+    "crème",
+    "feta",
+    "fromage râpé"
+  ],
+  "legumes_feculents": [
+    "légumes racines",
+    "nouilles udon",
+    "oignons",
+    "pak choï"
+  ],
+  "epicerie": [
+    "bouillon de légumes"
+  ]
 }
