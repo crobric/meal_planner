@@ -595,7 +595,7 @@ def app_main():
         st.header("Gestion et Expansion de la Base de Recettes")
 
         mode = st.radio("Comment voulez-vous ajouter une recette ?", 
-                        ("Ajout Manuel", "Ajout par URL (AI)"), horizontal=True)
+                        ("Ajout par URL (AI)", "Ajout Manuel"), horizontal=True)
 
         if mode == "Ajout Manuel":
             st.subheader("➕ Ajout Manuel d'une Nouvelle Recette")
