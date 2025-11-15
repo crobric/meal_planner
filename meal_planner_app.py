@@ -56,7 +56,7 @@ def api_call(payload: Dict[str, Any], system_prompt: str, response_schema: Dict[
     for attempt in range(MAX_RETRIES):
         try:
             response = requests.post(
-                f"{API_URL}?key={API_KEY}",
+                f"{API_URL}",
                 headers={'Content-Type': 'application/json'},
                 data=json.dumps(full_payload),
                 timeout=60
@@ -235,7 +235,7 @@ def add_recipe_from_url_ai(url: str):
             new_recipe['Cuisson (min)'] = int(new_recipe.get('Cuisson (min)', 0))
 
             append_recipe_to_csv(new_recipe)
-            st.experimental_rerun() # Refresh to show new count
+            st.rerun() # Refresh to show new count
         except Exception as e:
             st.error(f"Erreur de traitement de la réponse AI pour l'extraction : {e}")
 
