@@ -435,11 +435,9 @@ def generate_meal_plan_ai(df_recipes: pd.DataFrame, num_days: int):
             plan_data = json.loads(json_text)
             
             # Convert JSON plan to a Markdown table for display
-            plan_markdown = "## Plan de Repas Généré par Gemini Cuisinier\n\n"
+            plan_markdown = "## Plan de Repas Généré par Mimil\n\n"
             
-            # Display Remarks first
-            plan_markdown += f"### Remarques de l'IA\n{plan_data.get('Remarques', 'Aucune remarque fournie.')}\n\n---\n"
-            
+
             # Display the table
             plan_markdown += "| Jour | Déjeuner | Dîner |\n"
             plan_markdown += "| :--- | :--- | :--- |\n"
