@@ -1,0 +1,47 @@
+{
+    "viande_poisson": [
+        "Poulet",
+        "Lardons",
+        "Saucisse",
+        "Saumon"
+    ],
+    "laitiers_frais": [
+        "Crème fraîche",
+        "Fromage de chèvre",
+        "Emmental",
+        "Parmesan",
+        "Lait de coco"
+    ],
+    "legumes_feculents": [
+        "Poireaux",
+        "Courge butternut",
+        "Patate douce",
+        "Courgettes",
+        "Oignons",
+        "Ail",
+        "Nouilles udon",
+        "Champignons",
+        "Chou-fleur",
+        "Carottes",
+        "Pak choï",
+        "Feuilles de lasagne",
+        "Gnocchi",
+        "Riz arborio",
+        "Lentilles (corail et vertes)",
+        "Épinards"
+    ],
+    "epicerie": [
+        "Pâte (à tarte/brisée) (x3)",
+        "Noix",
+        "Curry",
+        "Farine",
+        "Échalotes",
+        "Épices",
+        "Sauce soja",
+        "Beurre de cacahuète",
+        "Bouillon (légumes ou volaille)",
+        "Tomates concassées",
+        "Vin blanc",
+        "Sauce d'huître"
+    ]
+}

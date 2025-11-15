@@ -1,0 +1,79 @@
+[
+    {
+        "jour": "Lundi",
+        "midi": {
+            "titre": "Hachis parmentier au butternut et chèvre",
+            "url": "https://jow.fr/recipes/hachis-parmentier-au-butternut-et-chevre-929d4cdng4tc02wk81x0"
+        },
+        "soir": {
+            "titre": "Tarte rustique aux poireaux, roquefort et noix",
+            "url": "https://jow.fr/recipes/tarte-rustique-aux-poireaux-roquefort-et-noix-91tjf9dhbpsw035k10yf"
+        }
+    },
+    {
+        "jour": "Mardi",
+        "midi": {
+            "titre": "Courgettes farcies légères",
+            "url": "https://www.cuisineaz.com/recettes/courgettes-farcies-legeres-54220.aspx"
+        },
+        "soir": {
+            "titre": "Udon à la crème de curry, champignons & œuf",
+            "url": "https://jow.com/fr/recipes/udon-a-la-creme-de-curry-champignons-et-oeuf-8vwibn3c9g0002zo06al"
+        }
+    },
+    {
+        "jour": "Mercredi",
+        "midi": {
+            "titre": "Quiche poireaux chèvre lardons",
+            "url": "https://www.marmiton.org/recettes/recette_quiche-poireaux-chevre-lardons_22275.aspx"
+        },
+        "soir": {
+            "titre": "Beignets de chou-fleur",
+            "url": "https://www.cuisineaz.com/recettes/beignets-de-chou-fleur-13842.aspx"
+        }
+    },
+    {
+        "jour": "Jeudi",
+        "midi": {
+            "titre": "Wok légumes sautés, poulet & sauce cacahuète",
+            "url": "https://jow.fr/recipes/wok-legumes-sautes-poulet-et-sauce-cacahuete-8ucq30s6h54y7d4e0kyc"
+        },
+        "soir": {
+            "titre": "Quiche poireaux emmental",
+            "url": "https://www.biodelices.fr/recette/quiche-poireaux-emmental/"
+        }
+    },
+    {
+        "jour": "Vendredi",
+        "midi": {
+            "titre": "Saucisse et lentilles",
+            "url": "https://jow.fr/recipes/saucisse-et-lentilles-8f7rhmw05aep170z0ywm"
+        },
+        "soir": {
+            "titre": "Chou Pak Choï sauté wok",
+            "url": "https://www.passeportsante.net/nutrition/recettes/recettes-chou-pak-choi-saute-wok"
+        }
+    },
+    {
+        "jour": "Samedi",
+        "midi": {
+            "titre": "Lasagnes poireaux et saumon",
+            "url": "https://jow.fr/recipes/lasagnes-poireaux-et-saumon-80w5c907l00s01tq8f5z"
+        },
+        "soir": {
+            "titre": "Dahl de lentilles corail",
+            "url": "https://jow.fr/recipes/dahl-de-lentilles-corail-7ve6ie0parb403dj0nsk"
+        }
+    },
+    {
+        "jour": "Dimanche",
+        "midi": {
+            "titre": "Gnocchi crémeux au poulet et épinards",
+            "url": "https://jow.fr/recipes/gnocchi-cremeux-au-poulet-et-epinards-959l790qj0r6lks9049x"
+        },
+        "soir": {
+            "titre": "Risotto aux poireaux",
+            "url": "https://jow.fr/recipes/risotto-aux-poireaux-82yn9cov5b6q4btu1b7i"
+        }
+    }
+]
