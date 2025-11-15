@@ -580,7 +580,7 @@ def app_main():
     )
 
     st.title("🍽️ Planificateur de Menus Hebdomadaire (AI-Powered)")
-    st.subheader("Optimisez vos recettes et votre inventaire grâce à Gemini.")
+    st.subheader("Optimisez vos recettes et votre inventaire grâce à Mimil the meal planner.")
 
     # Load master data once
     df_recipes = load_recipe_data()
