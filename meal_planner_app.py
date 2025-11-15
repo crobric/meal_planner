@@ -464,7 +464,7 @@ def generate_meal_plan_ai(df_recipes: pd.DataFrame, num_days: int):
             with open(MEAL_PLAN_PATH, 'w', encoding='utf-8') as f:
                 f.write(plan_markdown)
                 
-            st.success("Plan de repas généré avec succès ! Le fichier Markdown a été sauvegardé.")
+            st.success("Plan de repas généré avec succès !")
             st.markdown(plan_markdown)
             
             #st.info("Note : Pour voir les ingrédients clés de chaque plat, reportez-vous à la base de données de recettes.")
@@ -531,7 +531,7 @@ def generate_meal_plan_ai(df_recipes: pd.DataFrame, num_days: int):
     with open(GROCERY_LIST_PATH_TXT, 'w', encoding='utf-8') as f:
         f.write(record)
        
-    st.success("Liste de courses généré avec succès ! Le fichier Markdown a été sauvegardé.")
+    st.success("Liste de courses générée avec succès !")
 
     # Bouton de téléchargement
    # st.download_button(
