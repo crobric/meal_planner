@@ -343,7 +343,7 @@ def generate_meal_plan_ai(df_recipes: pd.DataFrame, num_days: int):
         {recipes_json}
 
         Veuillez maintenant générer un plan de repas en respectant IMPÉRATIVEMENT les contraintes suivantes :
-        1.  **Ingrédients disponibles :** J'ai déjà {available_str}. Vous devez prioriser les recettes qui utilisent ces ingrédients.
+        1.  **Ingrédients disponibles :** J'ai déjà {available_str}. Vous devez uniquement proposer des recettes qui utilisent ces ingrédients.
         2.  **Règle du soir :** Les repas du soir (Lundi Soir, Mardi Soir, etc.) ne doivent **jamais** contenir de viande ou de poisson. Utilisez uniquement les recettes où "Contient viande/poisson ?" est "Non".
         3.  **Règle du midi :** Les repas du midi peuvent contenir de la viande ou du poisson ("Oui" ou "Non").
         4.  **Variété :** Essayez de ne pas répéter les mêmes plats.
