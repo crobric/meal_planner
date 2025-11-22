@@ -348,6 +348,7 @@ def generate_meal_plan_ai(df_recipes: pd.DataFrame, num_days: int):
         3.  **Règle du midi :** Les repas du midi peuvent contenir de la viande ou du poisson ("Oui" ou "Non").
         4.  **Variété :** Essayez de ne pas répéter les mêmes plats.
         5.  **Liste de courses :** Générez une liste de courses catégorisée pour tous les ingrédients nécessaires pour ce plan, *sauf* ceux que j'ai déjà (listés au point 1).
+        5.  **Liste de menus:** Les menus choisis doivent impérativement et uniquement utiliser des ingrédients disponibles, selon la liste donnée au point 1. Si un ingrédient est manquant la recette ne peut pas être proposée.
 
     Générez le plan complet et la liste de courses.
     """
